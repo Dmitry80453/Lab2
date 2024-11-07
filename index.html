@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 2</title>
+
+  <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        /* Вбудований стиль (контейнер <style>) */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            width: 600px;
+            max-width: 100%;
+            border: 2px solid #333;
+            padding: 10px;
+            background-color: #fff5e1;
+        }
+        .floating-element {
+            float: left;
+            width: 150px;
+            margin: 10px;
+            padding: 10px;
+            background-color: #ffcc80;
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+  <h1 style="color: #4CAF50; text-align: center;">Inline style</h1> <!-- Inline-стиль -->
+
+  <div class="container">
+      <!-- Використання класів та ідентифікаторів -->
+      <div class="box" id="box1">
+          <input type="checkbox" id="checkbox1">
+          <label for="checkbox1">1</label>
+      </div>
+      <div class="box">
+          <input type="checkbox" id="checkbox2">
+          <label for="checkbox2">2</label>
+      </div>
+      <div class="box">
+          <input type="checkbox" id="checkbox3">
+          <label for="checkbox3">3</label>
+      </div>
+      <div class="box">
+          <input type="checkbox" id="checkbox4">
+          <label for="checkbox4">4</label>
+      </div>
+      <div class="box">
+          <input type="checkbox" id="checkbox5">
+          <label for="checkbox5">5</label>
+      </div>
+      <div class="box">
+          <input type="checkbox" id="checkbox6">
+          <label for="checkbox6">6</label>
+      </div>
+      <div class="box">
+          <input type="checkbox" id="checkbox7">
+          <label for="checkbox7">7</label>
+      </div>
+      <div class="box wider">
+          <input type="checkbox" id="checkbox8">
+          <label for="checkbox8">8</label>
+      </div>
+      <div class="box full-width" id="box9">
+          <input type="checkbox" id="checkbox9">
+          <label for="checkbox9">9</label>
+      </div>
+  </div>
+  
+  <!-- Абсолютно позиціонований елемент -->
+  <div id="positioned-box">
+      Absolutely Positioned Box
+  </div>
+
+  <!-- Елемент з обтіканням тексту (float) -->
+  <div class="floating-element">
+      Navigation
+  </div>
+  <p>Це текст, який обтікає навігаційний блок. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget purus libero. Curabitur vitae felis nec mi ultricies pharetra non ac nunc. Integer scelerisque commodo urna, non varius metus mollis nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+
+
+</body>
+</html>
